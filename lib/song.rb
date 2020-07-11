@@ -15,5 +15,4 @@ class Song
 end
 end
 
-song=Song.new('Love on Top')
-song=Artist.new('Rolling in the Deep')
+song=Song.new('Rolling in the Deep')

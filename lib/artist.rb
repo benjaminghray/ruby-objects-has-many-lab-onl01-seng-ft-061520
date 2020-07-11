@@ -6,7 +6,7 @@ class Artist
   
  end
 def songs 
-  Song.all 
+  Song.all.selec {|song| song.artists
 end
 def add_song(song)
   song.artist=self 
